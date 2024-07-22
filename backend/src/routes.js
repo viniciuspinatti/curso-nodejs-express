@@ -1,9 +1,15 @@
 import { Router } from "express";
 
-const routes = new Router();
+import multer from "multer";
+import uploadConfig from "./config/upload";
 
-routes.get("/", (req, res) => {
-  return res.json({ ok: false });
-});
+import SessionController from "./controllers/SessionController";
+import HouseController from "./controllers/HouseController";
+
+const routes = new Router();
+const upload = multer(uploadConfig);
+
+routes.post("/sessions", SessionController.store);
+routes.post("/houses", upload.single("thumbnail"), HouseController.store);
 
 export default routes;
