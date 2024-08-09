@@ -1,9 +1,13 @@
 import express from "express";
+import cors from "cors";
+
 import routes from "./routes";
 
 // Importing database
 import "./database";
 
+// TODO -> Update this project that was created with the same versions of packages used in the course to the latest ones
+// TODO -> Create dockerfile to run the app using containers
 class App {
   constructor() {
     this.server = express();
@@ -13,6 +17,7 @@ class App {
   }
 
   middlewares() {
+    this.server.use(cors());
     this.server.use(express.json());
   }
 
