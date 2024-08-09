@@ -14,14 +14,14 @@ You can create a postgres server in your local machine or user the docker-compos
 docker compose up
 ```
 
-# Install the packages and perform database migrations
+### Install the packages and perform database migrations
 
 ```
 yarn install
 yarn sequelize db:migrate
 ```
 
-# Running application locally
+### Running application locally
 
 ```
 yarn dev
