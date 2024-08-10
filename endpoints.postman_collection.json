@@ -55,7 +55,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{ \"name\": \"Golang\" }",
+							"raw": "{ \"name\": \"test\" }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -83,7 +83,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{ \"name\": \"Java\" }",
+							"raw": "{ \"name\": \"test\" }",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -140,7 +140,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"email\": \"demo@demo.com\"\n}",
+									"raw": "{\n    \"email\": \"test@test.com\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -173,7 +173,7 @@
 								"header": [
 									{
 										"key": "user_id",
-										"value": "669d9c605b00852742e7cff7",
+										"value": "test",
 										"type": "text"
 									}
 								],
@@ -183,11 +183,11 @@
 										{
 											"key": "thumbnail",
 											"type": "file",
-											"src": "/home/viniciuspinatti/Downloads/coruja.jpeg"
+											"src": []
 										},
 										{
 											"key": "description",
-											"value": "La casita 2",
+											"value": "House",
 											"type": "text"
 										},
 										{
@@ -197,7 +197,7 @@
 										},
 										{
 											"key": "location",
-											"value": "Rua 12",
+											"value": "St 100",
 											"type": "text"
 										},
 										{
@@ -228,7 +228,7 @@
 								"header": [
 									{
 										"key": "user_id",
-										"value": "669d9ba91e7b4d2446bfde3f",
+										"value": "test",
 										"type": "text"
 									}
 								],
@@ -238,11 +238,11 @@
 										{
 											"key": "thumbnail",
 											"type": "file",
-											"src": "/home/viniciuspinatti/Downloads/nathan-anderson-roZgc7SXXmI-unsplash.jpg"
+											"src": []
 										},
 										{
 											"key": "description",
-											"value": "Apartamento com piscina",
+											"value": "Ap",
 											"type": "text"
 										},
 										{
@@ -252,7 +252,7 @@
 										},
 										{
 											"key": "location",
-											"value": "Avenida da Esquina",
+											"value": "Avenue 1",
 											"type": "text"
 										},
 										{
@@ -309,13 +309,13 @@
 								"header": [
 									{
 										"key": "user_id",
-										"value": "669d9ba91e7b4d2446bfde3f",
+										"value": "test",
 										"type": "text"
 									}
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"house_id\": \"66a0053d86cca70edec64d96\"\n}",
+									"raw": "{\n    \"house_id\": \"id_value\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -525,7 +525,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NywiaWF0IjoxNzIzMjI0MDU5LCJleHAiOjE3MjM4Mjg4NTl9.EnlosCZBkj3WUYcpAkVEln_Z9O8g5e008o7UsSd1_pI",
+											"value": "token_here",
 											"type": "string"
 										}
 									]
@@ -534,7 +534,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"name\": \"viniciuspinatti\",\n    \"email\": \"viniciuspinatti@test.com\",\n    \"oldPassword\": \"123456\",\n    \"password\": \"1234567\",\n    \"confirmPassword\": \"1234567\"\n}",
+									"raw": "{\n    \"name\": \"test\",\n    \"email\": \"test@test.com\",\n    \"oldPassword\": \"123456\",\n    \"password\": \"1234567\",\n    \"confirmPassword\": \"1234567\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -567,7 +567,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"email\": \"viniciuspinatti@test.com\",\n    \"password\": \"123456\"\n}",
+									"raw": "{\n    \"email\": \"test@test.com\",\n    \"password\": \"123456\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -601,7 +601,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwiaWF0IjoxNzIzMjQwNzM1LCJleHAiOjE3MjM4NDU1MzV9.bX94OLJZS2eWnp9GDf4KGfdIIl_CxK-eNr68Fa4aGM4",
+											"value": "token_here",
 											"type": "string"
 										}
 									]
@@ -610,7 +610,7 @@
 								"header": [],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n    \"task\": \"Ah bem\"\n}",
+									"raw": "{\n    \"task\": \"task 1\"\n}",
 									"options": {
 										"raw": {
 											"language": "json"
@@ -639,7 +639,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwiaWF0IjoxNzIzMjQwNzM1LCJleHAiOjE3MjM4NDU1MzV9.bX94OLJZS2eWnp9GDf4KGfdIIl_CxK-eNr68Fa4aGM4",
+											"value": "test",
 											"type": "string"
 										}
 									]
@@ -668,7 +668,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwiaWF0IjoxNzIzMjQwNzM1LCJleHAiOjE3MjM4NDU1MzV9.bX94OLJZS2eWnp9GDf4KGfdIIl_CxK-eNr68Fa4aGM4",
+											"value": "test",
 											"type": "string"
 										}
 									]
@@ -707,7 +707,7 @@
 									"bearer": [
 										{
 											"key": "token",
-											"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6OCwiaWF0IjoxNzIzMjQwNzM1LCJleHAiOjE3MjM4NDU1MzV9.bX94OLJZS2eWnp9GDf4KGfdIIl_CxK-eNr68Fa4aGM4",
+											"value": "test",
 											"type": "string"
 										}
 									]
